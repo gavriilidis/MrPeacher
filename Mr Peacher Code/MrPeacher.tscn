@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://MrPeacherframes.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://MrPeacher.gd" type="Script" id=2]
+[ext_resource path="res://Sounds/Sounds/Snow walk.wav" type="AudioStream" id=3]
+[ext_resource path="res://Sounds/Sounds/Jumps/Jump-Bounch/Jump(1).wav" type="AudioStream" id=4]
+[ext_resource path="res://Sounds/Sounds/Spot Transition.wav" type="AudioStream" id=5]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 64.0
+height = 96.0
+
+[node name="MrPeacher" type="KinematicBody2D"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
+frames = ExtResource( 1 )
+animation = "front"
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 0.5, 0.5 )
+shape = SubResource( 1 )
+
+[node name="Soundwalk" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = 18.0
+pitch_scale = 1.4
+
+[node name="SoundJump" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 4 )
+
+[node name="SoundFallZone" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 5 )

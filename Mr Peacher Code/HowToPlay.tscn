@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://background_arctic/background_arctic_night.png" type="Texture" id=1]
+[ext_resource path="res://menu_icons/menu screens/howtoplayscreen.png" type="Texture" id=2]
+[ext_resource path="res://back_button__credits/backbutton.png" type="Texture" id=3]
+[ext_resource path="res://HowToPlay.gd" type="Script" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[node name="HowToPlay" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+rect_scale = Vector2( 0.8, 0.83 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 173.804
+margin_top = 67.4238
+margin_right = 870.804
+margin_bottom = 545.424
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backBtn" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 26.0
+margin_right = 143.0
+margin_bottom = 102.0
+rect_scale = Vector2( 0.6, 0.7 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/disabled = SubResource( 4 )
+custom_styles/normal = SubResource( 5 )
+icon = ExtResource( 3 )
+
+[connection signal="pressed" from="backBtn" to="." method="_on_backBtn_pressed"]

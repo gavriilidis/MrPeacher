@@ -1,0 +1,133 @@
+{
+	"events": [
+		{
+			"background": "res://background_arctic/background_arctic_night.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654018600.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Πότε έγινε η άλωση της Κωνσταντινούπολης;"
+		},
+		{
+			"choice": "1377",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Λάθος απάντηση. Δυστυχώς θα αρχίσεις από την αρχή."
+		},
+		{
+			"emit_signal": "wrong_ans",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "1403",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Λάθος απάντηση. Δυστυχώς θα αρχίσεις από την αρχή."
+		},
+		{
+			"emit_signal": "wrong_ans",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "1453",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Μπράβο! Σωστή απάντηση! Μπορείς να συνεχίσεις."
+		},
+		{
+			"emit_signal": "correct_ans",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "1820",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Λάθος απάντηση. Δυστυχώς θα αρχίσεις από την αρχή."
+		},
+		{
+			"emit_signal": "wrong_ans",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1654274837.json",
+		"name": "8th question"
+	}
+}

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Violin Win.wav-d805e65d5f0bfb958358c3a1bd1a0098.sample"
+
+[deps]
+
+source_file="res://Sounds/Sounds/Win Sounds/Violin Win.wav"
+dest_files=[ "res://.import/Violin Win.wav-d805e65d5f0bfb958358c3a1bd1a0098.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

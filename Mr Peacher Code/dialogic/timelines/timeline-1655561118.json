@@ -1,0 +1,59 @@
+{
+	"events": [
+		{
+			"background": "res://background_arctic/background_arctic_night.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654018600.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654016819.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Γεία σου MrPeacher. Είμαι ο Σοφοκλής και θα σε βοηθήσω να περάσεις τα εμπόδια του παιχνιδιού. Κάθε φορά που θα ακουμπάς ένα απο αυτά, θα σου κάνω μια ερώτηση με 4 πιθανές απαντήσεις. Αν μου απαντήσεις σωστά θα συνεχίσεις αλλιώς θα ξεκινήσεις από την αρχή της πίστας."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655561118.json",
+		"name": "Start"
+	}
+}

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bounching(5).wav-50489db6908df200446d65c4d5346999.sample"
+
+[deps]
+
+source_file="res://Sounds/Sounds/Jumps/Jump-Bounch/Bounching(5).wav"
+dest_files=[ "res://.import/Bounching(5).wav-50489db6908df200446d65c4d5346999.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

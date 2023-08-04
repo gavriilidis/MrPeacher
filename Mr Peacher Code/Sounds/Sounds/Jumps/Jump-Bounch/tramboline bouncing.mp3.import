@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tramboline bouncing.mp3-2908a1c02d6dafab3d820cb42ea7f92e.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Sounds/Jumps/Jump-Bounch/tramboline bouncing.mp3"
+dest_files=[ "res://.import/tramboline bouncing.mp3-2908a1c02d6dafab3d820cb42ea7f92e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

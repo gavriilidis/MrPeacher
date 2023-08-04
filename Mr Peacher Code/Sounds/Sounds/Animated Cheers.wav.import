@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Animated Cheers.wav-a91f445d7a707d436820d8b0bae5ec48.sample"
+
+[deps]
+
+source_file="res://Sounds/Sounds/Animated Cheers.wav"
+dest_files=[ "res://.import/Animated Cheers.wav-a91f445d7a707d436820d8b0bae5ec48.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

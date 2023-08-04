@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://bouy.gd" type="Script" id=1]
+[ext_resource path="res://assets1.0/assets1.0/g18221.png" type="Texture" id=2]
+[ext_resource path="res://Sounds/Sounds/Lose Sounds/Trompone Lose_2.wav" type="AudioStream" id=3]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 230.0
+height = 350.0
+
+[node name="bouy" type="Area2D"]
+scale = Vector2( 0.2, 0.2 )
+collision_layer = 64
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 6, 6 )
+texture = ExtResource( 2 )
+
+[node name="SoundHit" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 3 )
+volume_db = -8.0
+
+[connection signal="body_entered" from="." to="." method="_on_bouy_body_entered"]

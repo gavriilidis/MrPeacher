@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1654018600.json",
+	"mirror_portraits": false,
+	"name": "Mr Peacher",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Penguin revised/Penguin V.1.5.png"
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1654019357.cfg"
+}
